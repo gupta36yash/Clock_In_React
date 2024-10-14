@@ -1,0 +1,28 @@
+body{
+  background-image: url(assets/beautiful-night-sky-scenery-anime-digital-art-2k-wallpaper-uhdpaper.com-417@0@h.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  
+  display:flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.Clock-Container{
+  backdrop-filter: blur(5px);
+  width:100vw;
+  padding:1vh;
+}
+
+.Clock{
+  color: white;
+  font-size: 1000%;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px black;
+  text-align: center;
+
+}
